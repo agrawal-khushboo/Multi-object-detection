@@ -55,6 +55,6 @@ This jupyter notebook loads the model and pretrained weights and train the netwo
 #### _Logistics and Data_
 
 * **data/ folder**
-The folder contains all the csv files of the politicians containing the tweets and other attributes
+
 
 * **file/ folder**
