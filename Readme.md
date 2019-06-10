@@ -26,7 +26,7 @@ This is the final report.
 * **Code_Demo.ipynb**
 This Jupyter notebook contains the demo.  
 
-#### Requirement to run the demo 
+#### Requirement and how to run the demo 
 * 
 
 #### Before Training 
