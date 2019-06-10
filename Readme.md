@@ -24,13 +24,14 @@ This is the final report.
 
 #### _Demo_
 * **demo.ipynb**
-This Jupyter notebook contains the demo which loads 5 images given in the data folder which were extracted from the test set,  since the test set is big and that needs to be downloaded. For running the demo file the instruction are given below:
+This Jupyter notebook contains the demo which loads 5 images given in the data folder which were extracted from the test set. The test set is a file folder and could not be pushed on GitHUb. Hence, please download the folder from the drive. 
+Instructions to run the demo file are given below:
 
 #### Requirement and how to run the demo 
-* Please downlod all the other supporting files given on the github to run the demo file. 
-* Please download the trained weights from the files folder (gdrive link given below) and add to the data folder. 
+* Please download all the other supporting files given on the github to run the demo file. 
+* Please download the trained weights from the files folder (gdrive link given below) and add to the 'data' folder. 
 * The demo file reads the images from the test folder (which are 5 images extracted from the test set) to ease the running of the code. 
-* The demo file can be tested for the test data too, for that please download the data (link given below) and put the VOC2012  with all its content in the same directory as all the other files. 
+* The demo file can be tested for the test data too. To do so, please download the data (link given below) and put the VOC2012  with all its content in the same directory as all the other files. 
 
 
 #### Before Training 
@@ -59,7 +60,7 @@ This jupyter notebook loads the model and pretrained weights and train the netwo
 
 * **evaluate.ipynb**
 
-The jupyter notebook contains functions for generating the heat map (AP as a function of thresholds) and evaluating the precison-recall curve as well as mean average precsion on the validation set. 
+The jupyter notebook contains functions for generating the heat map and evaluating the precison recall curve as well as mean average precsion on the test set. 
 
 * **evaluate_support.ipynb**
 
