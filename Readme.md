@@ -39,6 +39,7 @@ This Jupyter notebook contains the demo which loads 5 images given in the data f
 The jupyter notebook contains the necessary functions for reading, scraping the images and encoding them. This also contains functions for findng the anchor boxes and and its height and width values by running K means on it.
 
 * **model_r.ipynb**
+
 The jupyter notebook initializes the YOLOv2 network.
 
 * **weight_r.ipynb**
