@@ -59,7 +59,7 @@ This jupyter notebook loads the model and pretrained weights and train the netwo
 
 * **evaluate.ipynb**
 
-The jupyter notebook contains functions for generating the heat map and evaluating the precison recall curve as well as mean average precsion on the test set. 
+The jupyter notebook contains functions for generating the heat map (AP as a function of thresholds) and evaluating the precison-recall curve as well as mean average precsion on the validation set. 
 
 * **evaluate_support.ipynb**
 
