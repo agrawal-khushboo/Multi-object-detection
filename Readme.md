@@ -2,7 +2,7 @@
 
 ## Team Members
 * Aiman Jabaren- ajabren@ucsd.edu
-* Aditi Tyagi-adtyagi@ucsd.edu
+* Aditi Tyagi- adtyagi@ucsd.edu
 * Khushboo Agrawal - khagrawa@ucsd.edu
 * Hayk Hovhannisyan- hhovhann@ucsd.edu
 
