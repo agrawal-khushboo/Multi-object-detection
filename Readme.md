@@ -1,73 +1,52 @@
-# Group 9: Political Sentiment Analysis on Twitter
+# Team Error404: Team Not Found
 
 ## Team Members
-* Akash Boghani - aboghani@ucsd.edu
+* Aiman Jabaren- ajabren@ucsd.edu
+* Aditi Tyagi-adtyagi@ucsd.edu
 * Khushboo Agrawal - khagrawa@ucsd.edu
-* Lina Yi - lkyi@ucsd.edu
-* Haoran Wu - haw004@ucsd.edu
+* Hayk Hovhannisyan- hhovhann@ucsd.edu
 
 ## Objective
-Twitter is the modern battleground of politics. This project aims to perform sentiment analysis on the tweets of popular politicians, and find interesting correlations based on:
-* Their tweeting habits
-* Their stance on major issues
-* Their support base 
+In the following project, we aim to implement the YOLOv2 algorithm for the multi-opject detection on the images
 
-## Requirements
+## Dataset
 In order to run the code in this repository, you will need to install the following dependencies:
-* tweepy:
-`pip install tweepy`
-* pandas:
-`pip install pandas`
-* numpy:
-`pip install numpy`
-* textblob: 
-`pip install textblob`
-* vader:
-`pip install vaderSentiment`
-* wordcloud:
-`pip install wordcloud`
-* matplotlib
-`pip install matplotlib`
-* plotly
-`pip install plotly`
-* plotly-express
-`pip install plotly-express`
-* statistics
-`pip install statistics`
-* sklearn
-`pip install sklearn`
+* PASCAL VOC'12 dataset (taken from the server)
+* Test Data set (given in the gdrive link provided below)
+* Trained weights (given in the gdrive link provided below)
+* Pretrained weights (given in the gdrive link provided below)
+* Test images (given in the Data folder)
 
 ## File Structure
 
-#### _Presentation_
-* **Twitter Sentiment Analysis.pdf**
-This is the final presentation converted to pdf format for your reference.
+* **Multi-object-detection.pdf**
+This is the final report. 
 
 #### _Demo_
 * **Code_Demo.ipynb**
 This Jupyter notebook contains the demo. To run, clone the repository. Then, navigate to the repository in Terminal, and type `jupyter notebook`. Click on **Code_demo.ipynb** to run the demo.
 
-#### _Data Collection_
-* **collect_data.py**
-This python code file fetches the tweets given the twitter handle of the politician and stores in a csv file.
+#### Before Training 
+* **data_r.ipynb**
 
-#### _Data Processing_
-* **process_tweets.py**
-This python code file is used to process the tweets from the csv file by cleaning the data and adding the subjectivity and polarity.
+The jupyter notebook contains the necessary functions for reading, scraping the images and encoding them. This also contains functions for findng the anchor boxes and and its height and width values by running K means on it.
 
-#### _Data Visualization_
-* **pie_scatter.py**
-This python file contains the functions to plot: 
-    * Scatterplot of the average polarity and subjectivity of the tweets of the politicians. 
-    * The K-Nearest Neighbors plot for finding out the boundary between the republicans and democrats. 
-    * Functions to plot the pie charts of percentage polarity for each politicians.
+* **model_r.ipynb**
+The jupyter notebook initializes the YOLOv2 network.
 
-* **gen_wordcloud.py**
-This python file contains the functions to generate the word cloud for positive and negative polarity of the tweets of politicians.
+* **weight_r.ipynb**
 
-* **engagement_plot.py**
-This python file contains functions for plotting the engagement vs polarity bubble chart for each politician.
+The jupyter notebook contains function for assigning the pretrained weights and intializing the weight to the last layer.
 
+* **loss_r.ipynb**
+
+The jupyter notebook conatains functions for evaluating the losses which is called for training.
+
+#### Training
+* **4training.ipynb**
+This jupyter notebook loads the model and pretrained weights and train the network. 
+
+#### Post Training
 * **average_tweets.py**
 This python file contains functions for plotting the average tweets per day of the politicians
 
