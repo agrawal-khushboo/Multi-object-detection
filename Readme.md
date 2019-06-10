@@ -82,7 +82,7 @@ The file contains two files which are
 * yolov2weights.h5 - The weights are used to assign the pretrained weights for training the network.
 
 
-* **Test set*
+* **Test set**
 
 From the link please download the VOC2012 test data set. 
 
