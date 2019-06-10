@@ -24,7 +24,10 @@ This is the final report.
 
 #### _Demo_
 * **Code_Demo.ipynb**
-This Jupyter notebook contains the demo. To run, clone the repository. Then, navigate to the repository in Terminal, and type `jupyter notebook`. Click on **Code_demo.ipynb** to run the demo.
+This Jupyter notebook contains the demo.  
+
+### Requirement to run the demo 
+* 
 
 #### Before Training 
 * **data_r.ipynb**
@@ -47,21 +50,11 @@ The jupyter notebook conatains functions for evaluating the losses which is call
 This jupyter notebook loads the model and pretrained weights and train the network. 
 
 #### Post Training
-* **average_tweets.py**
-This python file contains functions for plotting the average tweets per day of the politicians
 
-* **christchurch_shooting.py**
-This python file contains functions for plotting the comparison of the sentiment polarity of tweets with the average tweets during the christchurch shooting. 
 
 #### _Logistics and Data_
-* **twitter_credentials.json**
-This python file contains the configuration of the twitter developer  app for extracting the tweets. 
-
-* **all_handles.txt**
-This text file contains all the twitter handles of the politicians for which we have extracted the data and analyzed.
-
-* **real_names.txt**
-This text file contains the name of the politician real name and their twitter handle
 
 * **data/ folder**
 The folder contains all the csv files of the politicians containing the tweets and other attributes
+
+* **file/ folder**
