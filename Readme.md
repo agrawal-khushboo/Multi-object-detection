@@ -7,7 +7,7 @@
 * Hayk Hovhannisyan- hhovhann@ucsd.edu
 
 ## Objective
-In the following project, we aim to implement the YOLOv2 algorithm for the multi-opject detection on the images
+In the following project, we aim to implement the YOLOv2 algorithm for the multi-object detection on the images
 
 ## Dataset
 In order to run the code in this repository, you will need to install the following dependencies:
@@ -79,7 +79,7 @@ gdrive link- https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fope
 The file contains two files which are 
 
 * trained_weights.h5 - They are trained weights which is used for evaluation and prediction 
-* yolov2weights.h5 - The weights are used to assign the pretrained weights for training the networl 
+* yolov2weights.h5 - The weights are used to assign the pretrained weights for training the network.
 
 
 * **Test set*
