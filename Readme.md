@@ -12,8 +12,7 @@ In order to run the code in this repository, you will need to install the follow
 
 ## File Structure
 
-* **Multi_object_detection.pdf**
-This is the final report. 
+
 
 #### _Demo_
 * **demo.ipynb**
